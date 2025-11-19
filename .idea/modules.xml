@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/HakureiNative.iml" filepath="$PROJECT_DIR$/.idea/HakureiNative.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/TutoMovieApp.iml" filepath="$PROJECT_DIR$/.idea/TutoMovieApp.iml" />
     </modules>
   </component>
 </project>
