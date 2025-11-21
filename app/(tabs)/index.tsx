@@ -16,7 +16,7 @@ export default function Index() {
         loading: moviesLoading,
         error: moviesError
     } = useFetch(() => fetchMovies({
-        query: 'overlord'
+        query: ''
     }))
 
   return (
@@ -64,7 +64,6 @@ export default function Index() {
                             className="mt-2 pb-32"
                             scrollEnabled={false}
                         />
-
                     </>
                 </View>
             )}
