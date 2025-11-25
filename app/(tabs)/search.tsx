@@ -25,7 +25,6 @@ const Search = () => {
             if(searchQuery.trim()) {
                 const result = await loadMovies();
                 console.log(`Search results for "${searchQuery}": ${result?.length}`)
-
                 if (result && result.length > 0) {
                     console.log('Updating search count for:', searchQuery);
                     await updateSearchCount(searchQuery, result[0]);
@@ -38,6 +37,12 @@ const Search = () => {
     }, [searchQuery])
 
 
+  //  useEffect(() => {
+  //      if (movies?.length > 0 && movies?.[0]) {
+  //          console.log('Updating search count for:', searchQuery);
+  //          await updateSearchCount(searchQuery, movies[0]);
+  //      }
+  //  }, [movies]);
 
 
     return (
