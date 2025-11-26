@@ -87,8 +87,8 @@ const _Layout = () => {
                     tabBarIcon: ({ focused}) => (
                         <TabIcon
                             focused={focused}
-                            icon={icons.home}
-                            title="Home"
+                            icon={icons.save}
+                            title="Saved"
                         />
                     )
                 }}
@@ -101,8 +101,8 @@ const _Layout = () => {
                     tabBarIcon: ({ focused}) => (
                         <TabIcon
                             focused={focused}
-                            icon={icons.home}
-                            title="Home"
+                            icon={icons.person}
+                            title="Profile"
                         />
                     )
                 }}
